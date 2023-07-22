@@ -1,0 +1,9 @@
+.main_note_package{
+    margin-top: 100px;
+    width: 1900px;
+    height: 100%;
+    background-color: white;
+    margin-left: 340px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+}
