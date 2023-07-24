@@ -1,5 +1,6 @@
 .Placeholder {
-    margin-left: 400px;
+  animation: fadeIn 1s;
+    margin-left: 500px;
     font-size: 15px;
     color: #fff;
     font-weight: 400;
@@ -13,4 +14,18 @@
     background: #1d1b31;
     text-indent: 10px; 
     margin-top: 20px;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .show_input{
+    animation: fadeIn 1s;
+   font-size: 80px;
+  }
+
+  @media (min-width: 320px) and (max-width: 999px) {
+    .Placeholder {
+        margin-left: 65px;width: 70%;
+         }
   }
