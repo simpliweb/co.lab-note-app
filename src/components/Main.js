@@ -6,7 +6,7 @@ function Main({ notes }) {
         <div className={classes.main_note_package}>
        
         <div className='notes-list'>
-        <Input/>              
+         <Input/>              
         </div>
         </div>
     );
